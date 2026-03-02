@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadFlow AI - AI-Powered Lead Generation & CRM for Service Businesses</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        section {
+            margin-bottom: 80px;
+        }
+        
+        section h2 {
+            font-size: 2.2em;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #667eea;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .feature {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature h3 {
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 1.4em;
+        }
+        
+        .feature p {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 60px 0;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-size: 1em;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .target-market {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+        
+        .target-market h3 {
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        
+        .target-market ul {
+            columns: 2;
+            gap: 30px;
+        }
+.target-market li {
+            margin-bottom: 15px;
+            list-style: none;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .target-market li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 80px;
+        }
+        
+        footer p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LeadFlow AI</h1>
+        <p>AI-Powered Lead Generation & CRM Platform for Local Service Businesses</p>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>What We Offer</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>🎯 Automated Lead Generation</h3>
+                    <p>We identify and research high-quality prospects in your target market. Our AI finds decision-makers, validates contact information, and builds qualified lead lists tailored to your service.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📊 Smart CRM System</h3>
+                    <p>Every lead is stored in a centralized, organized database. Track contact info, interaction history, status, and follow-up dates. Never lose a prospect again.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>💬 AI-Powered Outreach</h3>
+                    <p>Generate personalized, compliant outreach messages. Our AI creates multiple variations per prospect, increasing response rates while maintaining a professional tone.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📈 Performance Analytics</h3>
+                    <p>Get real-time reports on leads discovered, messages sent, responses received, and conversion rates. Understand what's working and optimize your strategy.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🔄 Follow-Up Automation</h3>
+                    <p>Automatic reminders and follow-up messaging for prospects who haven't replied. Keep your pipeline warm without manual effort.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🤖 24/7 AI Operation</h3>
+                    <p>Our AI works around the clock. Research leads, manage your CRM, generate reports while you focus on closing deals and growing your business.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Who We Serve</h2>
+            <div class="target-market">
+                <h3>Perfect For:</h3>
+                <ul>
+                    <li>Real Estate Agents</li>
+                    <li>HVAC Contractors</li>
+                    <li>Plumbers & Electricians</li>
+                    <li>Roofing Companies</li>
+                    <li>Cleaning Services</li>
+                    <li>Locksmith Services</li>
+                    <li>Landscaping & Lawn Care</li>
+                    <li>Home Inspection Services</li>
+                    <li>General Contractors</li>
+                    <li>Any Local Service Business</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <h2>How It Works</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>1. Research</h3>
+                    <p>We identify relevant businesses in your geographic area and niche. Our AI validates all contact information and builds your prospect list.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>2. Store</h3>
+<p>Every prospect is stored in your CRM with full contact details, company info, and interaction history. Organized. Searchable. Always accessible.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>3. Outreach</h3>
+                    <p>AI generates personalized outreach messages tailored to each prospect. Multiple variations mean higher response rates and authentic engagement.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>4. Follow-Up</h3>
+                    <p>Automated follow-up sequences for non-responders. Polite. Valuable. Non-pushy. We keep prospects engaged without being annoying.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>5. Report</h3>
+                    <p>Get detailed performance reports. Leads found, messages sent, replies received, conversion rates, and clear next-step recommendations.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>6. Close</h3>
+                    <p>You close deals. We handle the lead generation, CRM management, and follow-up. You focus on what you do best—selling.</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="cta-section">
+            <h2>Ready to Scale Your Lead Generation?</h2>
+            <p>Let our AI work for you. Get more qualified leads, manage your pipeline, and close more deals.</p>
+            <a href="mailto:bigduskii@gmail.com?subject=LeadFlow%20AI%20Demo" class="btn">Schedule a Demo</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p><strong>LeadFlow AI</strong> — AI-Powered Lead Generation for Service Businesses</p>
+        <p>Currently Operating in Northwest Arkansas</p>
+        <p>Contact: bigduskii@gmail.com</p>
+    </footer>
+</body>
+</html>
